@@ -1,0 +1,96 @@
+p {
+    font-size: x-large;
+    line-height: 1.8;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+    color: black;
+}
+
+nav ul li {
+    display: inline-block;
+    color: black;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: black;
+    background-color: peachpuff;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+img#img001, img#img002 {
+    align-items: center;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2, h3, h4, h5, h6 {
+    font-size: 24px;
+}
+
+nav {
+    text-align: center;
+}
+
+
+a {
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+
+img {
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
+@media (max-width: 768px) {
+    body {
+      margin-left: 10px;  /* Smaller left margin */
+      margin-right: 10px; /* Smaller right margin */
+    }
+  }
+
+  /* Portrait mode (height > width) */
+@media (orientation: portrait) {
+    .my-element {
+      width: 90%;  /* Full width in portrait */
+      margin-top: 20px;  /* Add some space at the top in portrait */
+    }
+  }
+  
+  /* Landscape mode (width > height) */
+  @media (orientation: landscape) {
+    .my-element {
+      width: 60%;  /* Make the element smaller in landscape mode */
+      margin-top: 50px;  /* Add some space on top in landscape mode */
+    }
+  }
+
+  footer {
+    font-size: 6px;
+  }
+
+img#img101 {
+    position: fixed; /* Fixed position keeps it in place while scrolling */
+    top: 10px;        /* Adjust as per your preference */
+    right: 10px;      /* Adjust as per your preference */
+    width: 100px;     /* Set the logo size */
+    height: auto;     /* Maintain aspect ratio */
+    z-index: 1000;    /* Ensure it stays on top of other content */
+}
