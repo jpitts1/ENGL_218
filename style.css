@@ -50,7 +50,7 @@ a {
     display: block;
     margin-bottom: 20px;
     text-align: center;
-    color: white;
+    color: black;
     font-size: 24px;
 }
 
@@ -86,7 +86,7 @@ img {
     font-size: 6px;
   }
 
-img#img101 {
+img#img01 {
     position: fixed; /* Fixed position keeps it in place while scrolling */
     top: 10px;        /* Adjust as per your preference */
     right: 10px;      /* Adjust as per your preference */
